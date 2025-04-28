@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_TicTacToe_FILE /home/psychedel0c/Documents/projects/cleanCodersChallenge/build/Desktop_Qt_6_9_0-Debug/TicTacToe)
-set(__QT_DEPLOY_TARGET_TicTacToe_TYPE EXECUTABLE)

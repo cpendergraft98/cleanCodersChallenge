@@ -1,7 +1,0 @@
-# Hashes of file build rules.
-dde0adb314692d5fcebe4176e3864633 CMakeFiles/TicTacToe_autogen
-dde0adb314692d5fcebe4176e3864633 CMakeFiles/TicTacToe_autogen_timestamp_deps
-c6739efebc4693c49eeae5016e99041b TicTacToe_autogen/timestamp
-4012b69e3732e5002125e130064ead5d ui_endwindow.h
-b642cb0b6b312c499932265a704525e1 ui_mainwindow.h
-0e9d013487757d41e35dc51a418eeb27 ui_startwindow.h

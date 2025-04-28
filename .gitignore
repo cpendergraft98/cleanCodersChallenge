@@ -1,0 +1,33 @@
+# Ignore build artifacts
+build/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Ignore executable binaries
+*.exe
+*.out
+*.app
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Qt Creator project user files
+*.pro.user
+*.qbs.user
+*.creator.user
+*.autosave
+
+# Ignore other temporary files
+*.DS_Store

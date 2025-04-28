@@ -1,5 +1,0 @@
-/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/CMakeFiles/TicTacToe.dir
-/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/CMakeFiles/edit_cache.dir
-/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/CMakeFiles/rebuild_cache.dir
-/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/CMakeFiles/TicTacToe_autogen_timestamp_deps.dir
-/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/CMakeFiles/TicTacToe_autogen.dir
