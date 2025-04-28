@@ -14,45 +14,21 @@ A simple yet complete Tic-Tac-Toe game implemented with C++ and the Qt6 framewor
 
 ---
 
-## Cloning the Repository
+## Requirements
 
-```bash
-git clone https://github.com/cpendergraft98/cleanCodersChallenge.git
-```
-
----
-
-## Execution
-
-For reviewer convenience, a pre-built executable is contained within the repository under `/build/TicTacToe`. Naviagate to the directory using `cd cleanCodersChallenge/build` and execute with `./TicTacToe`.
-
----
-
-## Self-Build Requirements
 - C++17 compatible compiler
 - CMake (3.14 or newer)
 - Qt6 libraries (Widgets, Core, etc.)
-- Linux (currently built/tested for Linux systems)
 
 ---
 
-## Self-Build Instructions
+## Building the Project for Linux
 
-### Clone the Repository (see Cloning instructions)
+---
 
-### Create a Build Directory and Compile
+## Building the Project for MacOS
 
-```bash
-cmake -S . -B build
-cmake --build build
-```
-
-### Run the Executable
-
-```Bash
-cd Build
-./TicTacToe
-```
+---
 
 ## How to Play
 
