@@ -35,23 +35,52 @@ public:
         play->setGeometry(QRect(40, 120, 311, 61));
         QFont font;
         font.setPointSize(16);
+        font.setBold(true);
         play->setFont(font);
+        play->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
         exit = new QPushButton(StartWindow);
         exit->setObjectName("exit");
         exit->setGeometry(QRect(40, 210, 311, 61));
         exit->setFont(font);
+        exit->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
         label = new QLabel(StartWindow);
         label->setObjectName("label");
         label->setGeometry(QRect(40, 10, 311, 51));
-        label->setFont(font);
+        QFont font1;
+        font1.setPointSize(16);
+        label->setFont(font1);
         label->setAlignment(Qt::AlignmentFlag::AlignCenter);
         label_2 = new QLabel(StartWindow);
         label_2->setObjectName("label_2");
         label_2->setGeometry(QRect(40, 60, 311, 51));
-        QFont font1;
-        font1.setPointSize(18);
-        font1.setBold(true);
-        label_2->setFont(font1);
+        QFont font2;
+        font2.setPointSize(18);
+        font2.setBold(true);
+        label_2->setFont(font2);
         label_2->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         retranslateUi(StartWindow);

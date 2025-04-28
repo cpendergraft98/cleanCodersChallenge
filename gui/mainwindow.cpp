@@ -45,7 +45,7 @@ MainWindow::MainWindow(QWidget *parent, TicTacToe *newGame)
     // Inform the player of who plays first
     if(turn == m_game->plrMark)
     {
-        ui->label->setText("You go first! Your mark is 'X.");
+        ui->label->setText("You go first! Your mark is 'X'.");
     }
     else
     {
@@ -225,7 +225,7 @@ void MainWindow::resetDisplay()
     // Inform the player of who plays first
     if(turn == m_game->plrMark)
     {
-        ui->label->setText("You go first! Your mark is 'X.");
+        ui->label->setText("You go first! Your mark is 'X'.");
     }
     else
     {

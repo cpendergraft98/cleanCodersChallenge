@@ -46,7 +46,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(793, 600);
+        MainWindow->resize(1107, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         gridLayout = new QGridLayout(centralwidget);
@@ -62,6 +62,19 @@ public:
         font.setPointSize(96);
         font.setBold(true);
         botRight->setFont(font);
+        botRight->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(botRight, 3, 2, 1, 1);
 
@@ -70,6 +83,19 @@ public:
         sizePolicy.setHeightForWidth(midMid->sizePolicy().hasHeightForWidth());
         midMid->setSizePolicy(sizePolicy);
         midMid->setFont(font);
+        midMid->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(midMid, 2, 1, 1, 1);
 
@@ -78,6 +104,19 @@ public:
         sizePolicy.setHeightForWidth(topLeft->sizePolicy().hasHeightForWidth());
         topLeft->setSizePolicy(sizePolicy);
         topLeft->setFont(font);
+        topLeft->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(topLeft, 1, 0, 1, 1);
 
@@ -86,6 +125,19 @@ public:
         sizePolicy.setHeightForWidth(botLeft->sizePolicy().hasHeightForWidth());
         botLeft->setSizePolicy(sizePolicy);
         botLeft->setFont(font);
+        botLeft->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(botLeft, 3, 0, 1, 1);
 
@@ -94,6 +146,19 @@ public:
         sizePolicy.setHeightForWidth(botMid->sizePolicy().hasHeightForWidth());
         botMid->setSizePolicy(sizePolicy);
         botMid->setFont(font);
+        botMid->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(botMid, 3, 1, 1, 1);
 
@@ -105,6 +170,19 @@ public:
         sizePolicy1.setHeightForWidth(topRight->sizePolicy().hasHeightForWidth());
         topRight->setSizePolicy(sizePolicy1);
         topRight->setFont(font);
+        topRight->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(topRight, 1, 2, 1, 1);
 
@@ -113,6 +191,19 @@ public:
         sizePolicy.setHeightForWidth(midRight->sizePolicy().hasHeightForWidth());
         midRight->setSizePolicy(sizePolicy);
         midRight->setFont(font);
+        midRight->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(midRight, 2, 2, 1, 1);
 
@@ -121,6 +212,19 @@ public:
         sizePolicy.setHeightForWidth(midLeft->sizePolicy().hasHeightForWidth());
         midLeft->setSizePolicy(sizePolicy);
         midLeft->setFont(font);
+        midLeft->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(midLeft, 2, 0, 1, 1);
 
@@ -129,6 +233,19 @@ public:
         sizePolicy.setHeightForWidth(topMid->sizePolicy().hasHeightForWidth());
         topMid->setSizePolicy(sizePolicy);
         topMid->setFont(font);
+        topMid->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #008CBA;  /* Normal */\n"
+"    color: white;              /* Text color */\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #005f73;  /* Hover color */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #003f50;  /* Pressed color */\n"
+"}"));
 
         gridLayout->addWidget(topMid, 1, 1, 1, 1);
 
@@ -145,7 +262,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 793, 20));
+        menubar->setGeometry(QRect(0, 0, 1107, 20));
         menuBoard = new QMenu(menubar);
         menuBoard->setObjectName("menuBoard");
         MainWindow->setMenuBar(menubar);

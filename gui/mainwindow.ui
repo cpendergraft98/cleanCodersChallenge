@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>793</width>
+    <width>1107</width>
     <height>600</height>
    </rect>
   </property>
@@ -29,6 +29,21 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -47,6 +62,21 @@
         <pointsize>96</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
       </property>
       <property name="text">
        <string/>
@@ -67,6 +97,21 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -85,6 +130,21 @@
         <pointsize>96</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
       </property>
       <property name="text">
        <string/>
@@ -105,6 +165,21 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -123,6 +198,21 @@
         <pointsize>96</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
       </property>
       <property name="text">
        <string/>
@@ -143,6 +233,21 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -162,6 +267,21 @@
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -180,6 +300,21 @@
         <pointsize>96</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #008CBA;  /* Normal */
+    color: white;              /* Text color */
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005f73;  /* Hover color */
+}
+
+QPushButton:pressed {
+    background-color: #003f50;  /* Pressed color */
+}</string>
       </property>
       <property name="text">
        <string/>
@@ -209,7 +344,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>793</width>
+     <width>1107</width>
      <height>20</height>
     </rect>
    </property>
