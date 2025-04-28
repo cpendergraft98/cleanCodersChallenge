@@ -31,3 +31,6 @@ Makefile
 
 # Ignore other temporary files
 *.DS_Store
+
+# Ignore clangd LSP files
+.cache/clangd/index
