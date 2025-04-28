@@ -1,0 +1,5 @@
+/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/TicTacToe.dir
+/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/edit_cache.dir
+/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/rebuild_cache.dir
+/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/TicTacToe_autogen_timestamp_deps.dir
+/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/Desktop_Qt_6_9_0-Debug/CMakeFiles/TicTacToe_autogen.dir

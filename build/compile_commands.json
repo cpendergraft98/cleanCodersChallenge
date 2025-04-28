@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/include -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/src -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtWidgets -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtCore -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/mkspecs/linux-g++ -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtGui -std=gnu++17 -fPIC -o CMakeFiles/TicTacToe.dir/TicTacToe_autogen/mocs_compilation.cpp.o -c /home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/mocs_compilation.cpp",
+  "file": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/TicTacToe_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/include -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/src -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtWidgets -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtCore -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/mkspecs/linux-g++ -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtGui -std=gnu++17 -fPIC -o CMakeFiles/TicTacToe.dir/gui/main.cpp.o -c /home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/main.cpp",
+  "file": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/main.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/gui/main.cpp.o"
+},
+{
+  "directory": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/include -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/src -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtWidgets -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtCore -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/mkspecs/linux-g++ -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtGui -std=gnu++17 -fPIC -o CMakeFiles/TicTacToe.dir/gui/mainwindow.cpp.o -c /home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/mainwindow.cpp",
+  "file": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/mainwindow.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/gui/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/include -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/src -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtWidgets -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtCore -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/mkspecs/linux-g++ -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtGui -std=gnu++17 -fPIC -o CMakeFiles/TicTacToe.dir/gui/endwindow.cpp.o -c /home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/endwindow.cpp",
+  "file": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/endwindow.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/gui/endwindow.cpp.o"
+},
+{
+  "directory": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/include -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/src -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtWidgets -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtCore -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/mkspecs/linux-g++ -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtGui -std=gnu++17 -fPIC -o CMakeFiles/TicTacToe.dir/gui/startwindow.cpp.o -c /home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/startwindow.cpp",
+  "file": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui/startwindow.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/gui/startwindow.cpp.o"
+},
+{
+  "directory": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build/TicTacToe_autogen/include -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/src -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/gui -I/home/psychedel0c/Documents/projects/cleanCodersChallenge/build -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtWidgets -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtCore -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/mkspecs/linux-g++ -isystem /home/psychedel0c/Qt/6.9.0/gcc_64/include/QtGui -std=gnu++17 -fPIC -o CMakeFiles/TicTacToe.dir/src/ticTacToe.cpp.o -c /home/psychedel0c/Documents/projects/cleanCodersChallenge/src/ticTacToe.cpp",
+  "file": "/home/psychedel0c/Documents/projects/cleanCodersChallenge/src/ticTacToe.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/src/ticTacToe.cpp.o"
+}
+]
