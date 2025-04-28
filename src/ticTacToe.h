@@ -45,6 +45,7 @@ class TicTacToe
     char checkBoardState(vector<vector<char>> &srcBoard); // determines if the game has ended
     int minimax(vector<vector<char>> &srcBoard, bool isComputerTurn, int depth, string traceID); // minimax algorithm implementation
     vector<int> getBestMove(); // Uses minimax to determine optimal move
+    void resetBoard(); // resets the board to an initial state
 };
 
 #endif

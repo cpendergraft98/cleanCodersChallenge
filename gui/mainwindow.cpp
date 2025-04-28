@@ -2,6 +2,7 @@
 #include "endwindow.h"
 #include "ui_mainwindow.h"
 #include <qmainwindow.h>
+#include <qnamespace.h>
 #include <random>
 
 MainWindow::MainWindow(QWidget *parent, TicTacToe *newGame)
@@ -49,10 +50,8 @@ MainWindow::MainWindow(QWidget *parent, TicTacToe *newGame)
     else
     {
         ui->label->setText("The AI went first! Your mark is 'X' ");
-    }
-    // if the first turn is the AI, call the AI turn function
-    if(turn == m_game->compMark)
-    {
+
+        // run the Ai turn
         compTurn();
     }
 }
@@ -103,6 +102,8 @@ void MainWindow::onButtonClicked()
         // instantiate the end game window
         EndWindow* endGame = new EndWindow(nullptr, this, gameState);
         
+        // set end game window modality such that it blocks interactions with other windows
+        endGame->setWindowModality(Qt::ApplicationModal);
         // display the end window
         endGame->show();
     }
@@ -195,4 +196,43 @@ void MainWindow::updateBoardDisplay()
             button->setEnabled(false);
         }
     }
+}
+
+// resets the display for a new game
+void MainWindow::resetDisplay()
+{
+    // reset the game board
+    m_game->resetBoard();
+
+    // reset all text and re-enable buttons
+    for(const auto& entry: buttonPos)
+    {
+        // get the name of the button
+        const QString name = entry.first;
+
+        // grab the corresponding button
+        QPushButton *button = findChild<QPushButton*>(name);
+
+        // set the button text
+        button->setText(" ");
+        // re-enable the button
+        button->setEnabled(true);
+    }
+
+    // re-determine who plays first
+    turn = determineFirstTurn();
+
+    // Inform the player of who plays first
+    if(turn == m_game->plrMark)
+    {
+        ui->label->setText("You go first! Your mark is 'X.");
+    }
+    else
+    {
+        ui->label->setText("The AI went first! Your mark is 'X' ");
+
+        // run the Ai turn
+        compTurn();
+    }
+
 }

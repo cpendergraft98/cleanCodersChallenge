@@ -163,7 +163,7 @@ char TicTacToe::checkBoardState(vector<vector<char>> &srcBoard)
 
 }
 
-// performs the minimax algorithm to determine optimal next move
+// performs the minimaxNow that I have a functional version with this current delete and rebuild logic, I am strongly considering building out the reset logic I had talked about earlier. I know the impact would be exceedingly minimal algorithm to determine optimal next move
 int TicTacToe::minimax(vector<vector<char>> &srcBoard, bool isComputerTurn, int depth, string traceID)
 {
     // var to store the current board state
@@ -296,4 +296,16 @@ vector<int> TicTacToe::getBestMove()
     }
     
     return bestMove;
+}
+
+// resets the board to an empty state
+void TicTacToe::resetBoard()
+{
+    for(int row = 0; row < boardRows; row++)
+    {
+        for(int col = 0; col < boardCols; col++)
+        {
+                mainBoard[row][col] = EMPTY_SPACE;
+        }
+    }
 }

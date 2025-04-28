@@ -13,7 +13,7 @@ class EndWindow : public QDialog
     Q_OBJECT
 
 public:
-    explicit EndWindow(QWidget *parent = nullptr, MainWindow *oldWindow = nullptr, char terminalState = '_');
+    explicit EndWindow(QWidget *parent = nullptr, MainWindow *mainWindow = nullptr, char terminalState = '_');
     ~EndWindow();
 
 private slots:
@@ -23,7 +23,7 @@ private slots:
 
 private:
     Ui::EndWindow *ui;
-    MainWindow *m_oldWindow;
+    MainWindow *m_mainWindow;
     char m_terminalState;
 };
 

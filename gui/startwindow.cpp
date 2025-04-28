@@ -2,6 +2,7 @@
 #include "mainwindow.h"
 #include "ticTacToe.h"
 #include "ui_startwindow.h"
+#include <qnamespace.h>
 #include <qpushbutton.h>
 #include <qtextcursor.h>
 
@@ -24,11 +25,17 @@ StartWindow::~StartWindow()
 // play button handler
 void StartWindow::onPlayClicked()
 {
+    // set loading cursor
+    QApplication::setOverrideCursor(Qt::WaitCursor);
+
     // build a tic tac toe game instance
     TicTacToe* game = new TicTacToe();
 
     // build a new main window instance
     MainWindow* mainWindow = new MainWindow(nullptr, game);
+
+    // reset cursor
+    QApplication::restoreOverrideCursor();
 
     // display the mainWindow
     mainWindow->show();

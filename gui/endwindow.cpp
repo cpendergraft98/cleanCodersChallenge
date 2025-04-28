@@ -1,15 +1,16 @@
 #include "endwindow.h"
 #include "ticTacToe.h"
 #include "ui_endwindow.h"
+#include <qnamespace.h>
 
-EndWindow::EndWindow(QWidget *parent, MainWindow *oldWindow, char terminalState)
+EndWindow::EndWindow(QWidget *parent, MainWindow *mainWindow, char terminalState)
     : QDialog(parent)
     , ui(new Ui::EndWindow)
 {
     ui->setupUi(this);
-    
+
     // set variables
-    m_oldWindow = oldWindow;
+    m_mainWindow = mainWindow;
     m_terminalState = terminalState;
 
     // connect buttons
@@ -21,7 +22,7 @@ EndWindow::EndWindow(QWidget *parent, MainWindow *oldWindow, char terminalState)
     {
         ui->label->setText("It's a draw!");
     }
-    else if(terminalState == oldWindow->m_game->compMark) // computer win
+    else if(terminalState == m_mainWindow->m_game->compMark) // computer win
     {
         ui->label->setText("Sorry, you lose!");
     }
@@ -39,21 +40,14 @@ EndWindow::~EndWindow()
 // replay button handler
 void EndWindow::onReplayClicked()
 {
-    // close the mainWindow
-    m_oldWindow->close();
+    // set the cursor to a loading symbol
+    QApplication::setOverrideCursor(Qt::WaitCursor);
 
-    // delete the mainwindow instance
-    delete m_oldWindow;
-    m_oldWindow = nullptr;
-    
-    // rebuild a game instance
-    TicTacToe *game = new TicTacToe();
+    // reset the main window
+    m_mainWindow->resetDisplay();
 
-    // reubuild the mainWindow instance
-    MainWindow *newWindow = new MainWindow(nullptr, game);
-
-    // show the new window
-    newWindow->show();
+    // restore the cursor
+    QApplication::restoreOverrideCursor();
 
     // close and delete end window instance
     this->close();
@@ -66,11 +60,11 @@ void EndWindow::onExitClicked()
     // free all memory and close the game
 
     // close the main window
-    m_oldWindow->close();
+    m_mainWindow->close();
 
     // delete the mainWindow instance
-    delete m_oldWindow;
-    m_oldWindow = nullptr;
+    delete m_mainWindow;
+    m_mainWindow = nullptr;
 
     // close and delete the dialog window
     this->close();

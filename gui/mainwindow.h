@@ -33,6 +33,8 @@ public:
     void compTurn();
     // updates the board displayed on the gui
     void updateBoardDisplay();
+    // resets the board displayed
+    void resetDisplay();
 
 private slots:
     // button click handler
