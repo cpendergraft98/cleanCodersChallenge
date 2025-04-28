@@ -24,10 +24,61 @@ A simple yet complete Tic-Tac-Toe game implemented with C++ and the Qt6 framewor
 
 ## Building the Project for Linux
 
+Clone the repository:
+
+```bash
+
+git clone https://github.com/cpendergraft98/cleanCodersChallenge.git
+cd cleanCodersChallenge
+```
+
+Create a build directory and compile:
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+Run the executable
+
+```bash
+cd build
+./TicTacToe
+```
 ---
 
-## Building the Project for MacOS
+## Building the Project for macOS
 
+The source code is fully cross-platform and designed to compile cleanly on macOS.
+
+Install Qt and CMake:
+
+```bash
+brew install cmake
+brew install qt
+```
+
+Clone the repository:
+
+```bash
+
+git clone https://github.com/cpendergraft98/cleanCodersChallenge.git
+cd cleanCodersChallenge
+```
+
+Create a build directory and compile:
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+Run the executable
+
+```bash
+cd build
+./TicTacToe
+```
 ---
 
 ## How to Play
